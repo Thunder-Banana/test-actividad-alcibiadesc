@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cb203su2li1sw"]
+
+[ext_resource type="Script" uid="uid://bebiwpky1e67r" path="res://scenes/main/main.gd" id="1_hyk8p"]
+
+[node name="Main" type="Node" node_paths=PackedStringArray("world", "gui")]
+script = ExtResource("1_hyk8p")
+world = NodePath("World")
+gui = NodePath("GUI")
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="GUI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv0lqkpdi85l"]
+
+[ext_resource type="FontFile" uid="uid://1u36t0bvqs5r" path="res://ui/fonts/Not Jam UI Condensed 16.ttf" id="1_sul5r"]
+
+[sub_resource type="Theme" id="Theme_7h61r"]
+default_font = ExtResource("1_sul5r")
+default_font_size = 16
+
+[node name="Game" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_top = 80.0
+offset_right = 480.0
+offset_bottom = 96.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme = SubResource("Theme_7h61r")
+text = "game"
+horizontal_alignment = 1
